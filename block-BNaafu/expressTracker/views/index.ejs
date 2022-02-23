@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/508c3a88fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+    <main class="flex items_center">
+      <div class="container bg-img flex box_shadow">
+        <div class="left flex-46 flex">
+          <!-- <img src="../images/img.jpg" alt=""> -->
+        </div>
+        <div class="right flex-46 flex items_center">
+          
+          <div class="bg-text">
+            <h1>Finance Management</h1>
+            <div class="login flex items_center">
+              <a href="/auth/google">
+                
+                <i class="fab fa-google"></i>
+                <span> Login with Google </span>
+              </a>
+      
+              <a href="/auth/github">
+                
+                <i class="fab fa-github"></i>
+                <span> Login with Github </span>
+              </a>
+            </div>
+    
+            <div class="manual_login">
+              <a href="users/login">
+                Login 
+              </a>
+              <a  href="users/register">
+                <button class="register">Register</button>
+              </a>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
